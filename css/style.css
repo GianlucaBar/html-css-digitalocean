@@ -67,7 +67,7 @@ body{
 }
 
 .log_in_box{
-    padding-top: 25px;
+    padding: 30px 25px;
     background-color: white;
     border-radius: 5px;
 }
@@ -80,15 +80,44 @@ body{
     color: #006AFF;
 }
 
-#contact-form input{
+#log_in_form{
+    padding: 5px 0 10px 0;
+}
+
+#log_in_form input{
     box-shadow: none;
 }
 
-#contact-form input::placeholder{
+#log_in_form input::placeholder{
     color: #818181;
     font-size: 18px;
     font-weight: 500;
 }
 
+.ms_form_group{
+    margin-bottom: 7px;
+}
+
+.btn_create_acc{
+    background-color: #579AFF;
+    color: white;
+    display: block;
+    margin-bottom: 7px;
+}
+
+.btn_google_signup{
+    background-color:white;
+    color: #696969;
+    display: block;
+    border-bottom: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
+    position: relative;
+}
+
+.btn_google_signup img{
+    height: 20px;
+    position: absolute;
+    left: 5px;
+}
 /* fine JUMBOTRON  */
 /* fine HEADER  */
