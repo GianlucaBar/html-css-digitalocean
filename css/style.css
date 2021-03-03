@@ -1,0 +1,94 @@
+/* COMMON  */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER  */
+
+/* top nav  */
+.header_logo{
+    padding: 10px 0;
+}
+.header_logo img{
+    width: 200px;
+}
+
+.burger-menu i{
+    font-size: 25px;
+}
+
+.burger-menu{
+    text-align: right;
+}
+
+.menu_nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.menu_nav ul li{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.menu_nav ul li a{
+    color: #142B59;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn_signup{
+    border: 1px solid #036CFF;
+    color: #036CFF;
+}
+/* fine top nav  */
+
+/* JUMBOTRON  */
+.jumbotron{
+    background-image: url(../img/ms-jumbo.jpg);
+    background-size: cover;
+}
+
+.header_title{
+    color: white;
+}
+
+.header_title h1{
+    font-size: 55px;
+    width: 90%;
+}
+
+.header_title p{
+    font-size: 16px;
+    color: #BBCDFF;
+    font-weight: 600;
+}
+
+.log_in_box{
+    padding-top: 25px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.log_in_box h2{
+    line-height: 20px;
+}
+
+.log_in_box h2:nth-child(2){
+    color: #006AFF;
+}
+
+#contact-form input{
+    box-shadow: none;
+}
+
+#contact-form input::placeholder{
+    color: #818181;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* fine JUMBOTRON  */
+/* fine HEADER  */
