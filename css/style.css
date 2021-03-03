@@ -2,8 +2,13 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    color: #5C6A88;
 }
 
+.bg-gray{
+    background-color: #F3F5F9;
+    margin-top: 0;
+}
 /* HEADER  */
 
 /* top nav  */
@@ -121,3 +126,6 @@ body{
 }
 /* fine JUMBOTRON  */
 /* fine HEADER  */
+
+/* MAIN  */
+/* fine MAIN  */
