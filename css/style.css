@@ -33,6 +33,9 @@ body{
     padding: 20px 0;
 }
 
+.menu_nav .menu_right{
+    padding: 13px 0;
+}
 .menu_nav ul li{
     display: inline-block;
     padding-left: 10px;
@@ -44,14 +47,18 @@ body{
     font-weight: 600;
 }
 
-.btn_signup{
+.menu_right .btn_signup{
     border: 1px solid #036CFF;
     color: #036CFF;
 }
 /* fine top nav  */
 
 /* JUMBOTRON  */
-.jumbotron{
+
+.jumbo_content{
+    padding: 50px 0;
+}
+.ms_jumbotron{
     background-image: url(../img/ms-jumbo.jpg);
     background-size: cover;
 }
@@ -128,4 +135,41 @@ body{
 /* fine HEADER  */
 
 /* MAIN  */
+.customers{
+    padding: 50px 0;
+}
+
+.customers a{
+    font-size: 16px;
+    color: #006AFF;
+    font-weight: 500;
+}
+
+.customers-list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.customers-list li{
+    display: inline-block;
+}
+
+.customers-list li img{
+    width: 100%;
+}
+
+.customers-list li{
+    width: calc( ( 100% / 6 ) - 4px );
+}
+
+@media all and (max-width: 768px){
+    .customers-list li img{
+        width: 80%;
+    }
+
+    .customers-list li{
+        width: calc( ( 100% / 2 ) - 4px );
+    }
+}
 /* fine MAIN  */
