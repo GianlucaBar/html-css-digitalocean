@@ -59,7 +59,7 @@ h3{
 
 /* top nav  */
 .header_logo{
-    padding: 10px 0;
+    padding: 15px 0;
 }
 .header_logo img{
     width: 200px;
@@ -71,17 +71,19 @@ h3{
 
 .burger-menu{
     text-align: right;
+    padding: 20px 0;
 }
 
 .menu_nav ul{
     list-style-type: none;
     margin: 0;
-    padding: 20px 0;
+    padding: 25px 0;
 }
 
 .menu_nav .menu_right{
-    padding: 13px 0;
+    padding: 20px 0;
 }
+
 .menu_nav ul li{
     display: inline-block;
     padding-left: 10px;
@@ -366,7 +368,7 @@ h3{
 }
 
 .review-box img{
-    width: 400px;
+    width: auto;
     display: block;
     margin: auto;
 }
@@ -479,7 +481,6 @@ footer{
     border-radius: 5px;
     position: relative;
     margin-left: 30px;
-    /* top: 50px; */
     float: left;
 }
 
