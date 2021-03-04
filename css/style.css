@@ -130,9 +130,9 @@ h3{
     border-radius: 5px;
 }
 
-.log_in_box h2{
+/* .log_in_box h2{
     line-height: 20px;
-}
+} */
 
 .log_in_box h2:nth-child(2){
     color: #006AFF;
@@ -438,4 +438,68 @@ footer{
     color: #A1A9BA;
 }
 
+/* POPUP  */
 
+.pop-up{
+    position: fixed;
+    bottom: 100px;
+    right: 40px;
+    z-index: 2;
+}
+
+.text-balloon{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    color: #031C4E;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    float: left;
+}
+
+.triangle{
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid white;
+    display: inline-block;
+    position: absolute;
+    right: -10px;
+    bottom: 10px;
+}
+
+.mascot-block{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: #006AFF;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 30px;
+    /* top: 50px; */
+    float: left;
+}
+
+.mascot-block img{
+    width: 100%;
+    position: absolute;
+    top: 15%;
+}
+.notification{
+    background-color: red;
+    border: 7px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+}
+
+.notification span{
+    color: white;
+    font-size: 25px;
+}
