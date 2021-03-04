@@ -9,6 +9,33 @@ body{
     background-color: #F3F5F9;
     margin-top: 0;
 }
+
+.general_heading{
+    color: #072050;
+    font-weight: 600;
+}
+
+h5.general_heading{
+    font-size: 18px;
+}
+
+h3.general_heading{
+    font-size: 30px;
+}
+.general_subtitle{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.wrapper_small{
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.section-padding{
+    padding: 50px 0;
+}
 /* HEADER  */
 
 /* top nav  */
@@ -135,6 +162,8 @@ body{
 /* fine HEADER  */
 
 /* MAIN  */
+
+/* sezione customers  */
 .customers{
     padding: 50px 0;
 }
@@ -172,4 +201,24 @@ body{
         width: calc( ( 100% / 2 ) - 4px );
     }
 }
+/* fine customers  */
+
+/* sezione features  */
+
+.plan-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border-left: 1px solid #5C6A88;
+}
+
+.plan-list li{
+    padding: 10px 7px;
+}
+
+.inner-padding{
+    padding-bottom: 30px;
+}
+/* fine features  */
+
 /* fine MAIN  */
