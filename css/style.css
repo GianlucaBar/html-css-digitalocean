@@ -3,8 +3,14 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: #5C6A88;
+    font-weight: 500;
 }
 
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 .bg-gray{
     background-color: #F3F5F9;
     margin-top: 0;
@@ -37,6 +43,7 @@ h3.general_heading{
 .section-padding{
     padding: 50px 0;
 }
+
 /* HEADER  */
 
 /* top nav  */
@@ -169,7 +176,7 @@ h3.general_heading{
     padding: 50px 0;
 }
 
-.customers a{
+.general-link{
     font-size: 16px;
     color: #006AFF;
     font-weight: 500;
@@ -299,7 +306,42 @@ h3.general_heading{
 /* fine slideshow  */
 
 /* sezione pros  */
-
+.row_padding{
+    padding-top: 30px;
+}
 /* fine pros  */
 
+/* sezione servers  */
+.blue-gradient{
+    background: linear-gradient(0deg, rgba(0,29,153,1) 39%, rgba(0,71,197,1) 97%);
+    color: white;
+}
+
+.blue-gradient h3{
+    font-size: 30px;
+}
+
+.servers-list li{
+    display: block;
+    border-bottom: 1px solid white;
+    padding: 10px 0 5px 15px;
+}
+
+.servers-list li:last-child{
+    border-bottom: none
+} 
+
+
+.server_id{
+    text-transform: uppercase;
+}
+
+.server_location{
+    color: #A8BAE4;
+}
+
+.servers-list li a{
+    color: #00D4D2;
+}
+/* fine servers  */
 /* fine MAIN  */
