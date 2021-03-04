@@ -22,6 +22,7 @@ h5.general_heading{
 h3.general_heading{
     font-size: 30px;
 }
+
 .general_subtitle{
     font-size: 19px;
     font-weight: 500;
@@ -220,5 +221,85 @@ h3.general_heading{
     padding-bottom: 30px;
 }
 /* fine features  */
+
+/* slideshow */
+.slideshow-wrapper{
+    width: 70%;
+    margin: 40px auto 0 auto;
+    
+}
+
+.ms_slideshow{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ms_slideshow li{
+    display: inline-block;
+}
+
+.ms_slideshow li a{
+    font-size: 40px;
+    color:#072050;
+    padding: 0 15px;
+}
+
+.ms_slideshow li a:hover{
+    color: #6F7B97;
+}
+.slide-img{
+    width: 75%;
+}
+
+.slide-img img{
+    width: 100%;
+}
+
+.slideshow-wrapper h6{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.slide-circles{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.slide-circles li {
+    display: inline-block;
+    padding: 0 3px;
+}
+
+
+.circle{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid #006AFF;
+}
+
+/* uso nth-child invece di first-child per poter selezionare qualunque pallino allóccorrenza  */
+.slide-circles li:nth-child(1) .circle{
+    background-color: #006AFF;
+}
+
+@media all and (max-width: 768px){
+    .ms_slideshow li:first-child,
+    .ms_slideshow li:last-child{
+        display: none;
+    }
+    .slideshow-wrapper{
+        width: 100%;
+        margin: 70px auto 0 auto;
+    }   
+}
+/* fine slideshow  */
+
+/* sezione pros  */
+
+/* fine pros  */
 
 /* fine MAIN  */
