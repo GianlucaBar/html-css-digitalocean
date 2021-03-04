@@ -396,3 +396,46 @@ h3{
 }
 /* fine cta  */
 /* fine MAIN  */
+
+/* FOOTER  */
+footer{
+    background-color: #031C4E;
+    color: #A1A9BA;
+}
+.copyrights img{
+    margin-bottom: 10px;
+}
+.copyrights span{
+    display: block;
+    margin: 3px 0;
+}
+
+.copyrights span:last-child{
+    font-weight: 400;
+    font-size: 13px;
+    color: #5A6887;
+}
+
+.social-list li{
+    display: inline-block;
+    padding-right: 7px;
+}
+
+.social-list li a{
+    color: #A1A9BA;
+    font-size: 22px;
+}
+
+.footer-menu li{
+    padding: 5px 0;
+}
+.footer-menu h6{
+    color: white;
+    font-size: 18px;
+}
+
+.footer-menu li a{
+    color: #A1A9BA;
+}
+
+
