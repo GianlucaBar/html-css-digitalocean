@@ -16,6 +16,10 @@ ul{
     margin-top: 0;
 }
 
+.bg-blue{
+    background-color: #0035AE;
+    color: white;
+}
 .general_heading{
     color: #072050;
     font-weight: 600;
@@ -25,13 +29,20 @@ h5.general_heading{
     font-size: 18px;
 }
 
-h3.general_heading{
-    font-size: 30px;
+h3{
+    font-size: 35px;
 }
 
 .general_subtitle{
     font-size: 19px;
     font-weight: 500;
+}
+
+.general-link{
+    font-size: 16px;
+    color: #006AFF;
+    font-weight: 500;
+    display: block;
 }
 
 .wrapper_small{
@@ -176,11 +187,6 @@ h3.general_heading{
     padding: 50px 0;
 }
 
-.general-link{
-    font-size: 16px;
-    color: #006AFF;
-    font-weight: 500;
-}
 
 .customers-list{
     margin: 0;
@@ -246,15 +252,17 @@ h3.general_heading{
     display: inline-block;
 }
 
-.ms_slideshow li a{
+.ms_slideshow li .chevron{
     font-size: 40px;
     color:#072050;
     padding: 0 15px;
+    vertical-align: middle;
 }
 
 .ms_slideshow li a:hover{
     color: #6F7B97;
 }
+
 .slide-img{
     width: 75%;
 }
@@ -309,6 +317,10 @@ h3.general_heading{
 .row_padding{
     padding-top: 30px;
 }
+
+@media all and (max-width: 768px){
+   
+}
 /* fine pros  */
 
 /* sezione servers  */
@@ -344,4 +356,43 @@ h3.general_heading{
     color: #00D4D2;
 }
 /* fine servers  */
+
+/* slideshow 2  */
+.review-box{
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 50px 20px;
+}
+
+.review-box img{
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.review-box p{
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+.review-box span{
+    font-size: 16px;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.review-circles{
+    margin-top: 25px;
+}
+/* fine slideshow 2  */
+
+/* sezione cta  */
+.btn-create-account{
+    background-color: white;
+    color: #006AFF;
+    font-weight: 500;
+    margin-top: 25px;
+}
+/* fine cta  */
 /* fine MAIN  */
