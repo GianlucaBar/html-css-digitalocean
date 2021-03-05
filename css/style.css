@@ -4,6 +4,7 @@ body{
     font-family: 'Roboto', sans-serif;
     color: #5C6A88;
     font-weight: 500;
+    min-width: 350px;
 }
 
 ul{
@@ -442,7 +443,7 @@ footer{
 .pop-up{
     position: fixed;
     bottom: 100px;
-    right: 40px;
+    right: 0px;
     z-index: 2;
 }
 
@@ -454,7 +455,7 @@ footer{
     font-size: 20px;
     display: inline-block;
     position: relative;
-    max-width: 40%;
+    max-width: 50%;
     vertical-align: middle;
 }
 
@@ -471,8 +472,8 @@ footer{
 }
 
 .mascot-block{
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 100px;
+    max-height: 100px;
     width: 100px;
     height: 100px;
     display: inline-block;
@@ -485,7 +486,6 @@ footer{
 }
 
 .mascot-block img{
-    width: 100%;
     position: absolute;
     top: 15%;
 }
@@ -507,7 +507,16 @@ footer{
 }
 
 @media all and (max-width: 768px){
-    .text-balloon{
-       min-width: 40%;
+    
+    .mascot-block{
+        display: block;
+    }
+
+    .triangle{
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid white;
+        left: 40px;
+        bottom: -20px;
     }
 }
